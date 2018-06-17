@@ -1,0 +1,13 @@
+#include<iostream>
+ using namespace std;
+ int main()
+ {
+   int cm;
+  double myinch,myfoot;
+   cout<<"输入你的身高（CM）";
+  cin>>cm;
+  myinch=inch*cm;
+  myfoot=foot*cm;
+  cout<<"你的身高是"<<cm<<"cm "<<"相当于 "<<myinch<<"相当于"<<myfoot<<endl;
+  return 0;
+ }
