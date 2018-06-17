@@ -1,0 +1,22 @@
+#include<iostream>
+#include<cstring>
+ using namespace std;
+ int main()
+ {double power1,power2;
+ char a[5];
+ char b[5];
+ char m[]="w";
+ char n[]="J/s"; 
+ cout<<"输入一个功率单位 "<<endl;
+cin>>a;
+cout<<"输入想要转换成的功率单位 "<<endl;
+cin>>b; 
+cout<<"输入此单位下功率大小"<<endl;
+cin>>power1;
+ if (strcmp(a,m)==0)
+power2=1*power1; 
+ if(strcmp(a,m)==1)
+ power2=power1/1;
+ cout<<"换算结果为"<<power2<<b<<endl;
+  return 0;
+ }
